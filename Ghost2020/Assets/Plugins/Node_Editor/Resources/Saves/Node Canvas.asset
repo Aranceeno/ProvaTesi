@@ -1,0 +1,461 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a89c36c30b2e940804d7efcccaf0bd, type: 3}
+  m_Name: Node Canvas
+  m_EditorClassIdentifier: 
+  editorStates:
+  - {fileID: 114980245590468906}
+  saveName: Assets\Plugins\Node_Editor\Resources\Saves\Node Canvas
+  savePath: Assets\Plugins\Node_Editor\Resources\Saves\Node Canvas.asset
+  livesInScene: 0
+  nodes:
+  - {fileID: 114852243723231588}
+  - {fileID: 114825677648511040}
+  - {fileID: 114857404704352876}
+  - {fileID: 114887230634840534}
+  - {fileID: 114021366489493834}
+  - {fileID: 114277589285264110}
+  groups: []
+--- !u!114 &114021366489493834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747f0eb1793c70a4f96db5f610b62ea8, type: 3}
+  m_Name: Resolution
+  m_EditorClassIdentifier: 
+  position: {x: 590.4, y: 47.40001}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  arcInputKnob: {fileID: 114267523592719390}
+  point: 0
+  overcame: 1
+  textDesc: 
+--- !u!114 &114050560635435890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114852243723231588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexPrincipalType
+  _connections: []
+  side: 4
+  sidePosition: 89
+  sideOffset: 0
+--- !u!114 &114151992853443832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Unknown '
+  m_EditorClassIdentifier: 
+  body: {fileID: 114825677648511040}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: TransformationalArcStartType
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114261155500891350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114852243723231588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexPrincipalType
+  _connections: []
+  side: 4
+  sidePosition: 109
+  sideOffset: 0
+--- !u!114 &114267523592719390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114021366489493834}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: SecondTurningPointType
+  _connections: []
+  side: 4
+  sidePosition: 0
+  sideOffset: 0
+--- !u!114 &114277589285264110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506a5a0ea7645da4bb7e9719afd1af0d, type: 3}
+  m_Name: Character Descriptor
+  m_EditorClassIdentifier: 
+  position: {x: -646, y: -274.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  arcOutputKnob: {fileID: 114439316083432348}
+  type: 12
+  role: 8
+  good: 11
+  evil: 22
+  plex: 8
+  modif: 8
+  textName: 
+  textAge: 
+  textGender: 
+  textRace: 
+  textDesc: 
+--- !u!114 &114280713023700876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114852243723231588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexPrincipalType
+  _connections: []
+  side: 4
+  sidePosition: 69
+  sideOffset: 0
+--- !u!114 &114294184896996352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Renewal '
+  m_EditorClassIdentifier: 
+  body: {fileID: 114887230634840534}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: SecondTurningPointType
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114439316083432348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Arc '
+  m_EditorClassIdentifier: 
+  body: {fileID: 114277589285264110}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114439917656408826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114852243723231588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexPrincipalType
+  _connections: []
+  side: 3
+  sidePosition: 20
+  sideOffset: 0
+--- !u!114 &114511149794600414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114887230634840534}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: MidPointType
+  _connections: []
+  side: 4
+  sidePosition: 0
+  sideOffset: 0
+--- !u!114 &114548534536741030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114857404704352876}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: TransformationalArcStartType
+  _connections: []
+  side: 4
+  sidePosition: 0
+  sideOffset: 0
+--- !u!114 &114716524287848038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114852243723231588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexPrincipalType
+  _connections: []
+  side: 4
+  sidePosition: 149
+  sideOffset: 0
+--- !u!114 &114733669064358050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114852243723231588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexPrincipalType
+  _connections: []
+  side: 4
+  sidePosition: 49
+  sideOffset: 0
+--- !u!114 &114756849743681496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114852243723231588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexPrincipalType
+  _connections: []
+  side: 4
+  sidePosition: 129
+  sideOffset: 0
+--- !u!114 &114825677648511040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80bb4c8af2970ea41b25ba9af44bacfd, type: 3}
+  m_Name: Transformational Arc Start
+  m_EditorClassIdentifier: 
+  position: {x: -144, y: -270.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  arcInputKnob: {fileID: 114867824007775080}
+  unknownOutputKnob: {fileID: 114151992853443832}
+  theme: 23
+  flaw: 8
+  textDesc: 
+--- !u!114 &114852243723231588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc563c4c09376d4ea04ac4e42517311, type: 3}
+  m_Name: Interpersonal Circumplex
+  m_EditorClassIdentifier: 
+  position: {x: -645, y: 84.5}
+  dynamicConnectionPorts:
+  - {fileID: 114733669064358050}
+  - {fileID: 114280713023700876}
+  - {fileID: 114050560635435890}
+  - {fileID: 114261155500891350}
+  - {fileID: 114756849743681496}
+  - {fileID: 114716524287848038}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  principalNameInputKnob: {fileID: 114439917656408826}
+  labels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  charpoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114857404704352876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59008252f00fca41bffd5934e6b253b, type: 3}
+  m_Name: Mid Point
+  m_EditorClassIdentifier: 
+  position: {x: 333.6, y: -257.4}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  exhaustionInputKnob: {fileID: 114548534536741030}
+  knownOutputKnob: {fileID: 114973331547349064}
+  point: 0
+  textDesc: 
+--- !u!114 &114867824007775080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 114825677648511040}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 4
+  sidePosition: 20
+  sideOffset: 0
+--- !u!114 &114887230634840534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c48e5f65b15944aa4d03bae63921b4, type: 3}
+  m_Name: Second Turning Point
+  m_EditorClassIdentifier: 
+  position: {x: 201.6, y: 22.200012}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  knownInputKnob: {fileID: 114511149794600414}
+  renewalOutputKnob: {fileID: 114294184896996352}
+  point: 0
+  textDesc: 
+--- !u!114 &114973331547349064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Known '
+  m_EditorClassIdentifier: 
+  body: {fileID: 114857404704352876}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: MidPointType
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114980245590468906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 11400000}
+  parentEditor: {fileID: 0}
+  selectedNode: {fileID: 0}
+  panOffset: {x: -122.8, y: -87.20001}
+  zoom: 1

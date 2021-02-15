@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9175331624668903318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  parentEditor: {fileID: 0}
+  selectedNode: {fileID: 3574774530900946323}
+  panOffset: {x: 840.4, y: 89.600006}
+  zoom: 0.8
+--- !u!114 &-9152401449468663950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 60
+  sideOffset: 0
+--- !u!114 &-6152147158603030804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 100
+  sideOffset: 0
+--- !u!114 &-4059131156631276204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 20
+  sideOffset: 0
+--- !u!114 &-2177777013276572070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Act
+  m_EditorClassIdentifier: 
+  body: {fileID: 3403415468953833943}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: ActsType
+  _connections: []
+  side: 2
+  sidePosition: 28
+  sideOffset: 0
+--- !u!114 &-1792081045207542462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 120
+  sideOffset: 0
+--- !u!114 &-1225287210699486277
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f087403d09c1f74cab9ff1f614ace30, type: 3}
+  m_Name: LastSession
+  m_EditorClassIdentifier: 
+  editorStates:
+  - {fileID: -9175331624668903318}
+  saveName: New Graph
+  savePath: 
+  livesInScene: 0
+  nodes:
+  - {fileID: 8776396330189472651}
+  - {fileID: 8545244516192991475}
+  - {fileID: 3403415468953833943}
+  - {fileID: 9185651078826637922}
+  - {fileID: 3574774530900946323}
+  groups: []
+--- !u!114 &802471496645848177
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Act
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: ActsType
+  _connections: []
+  side: 4
+  sidePosition: 20
+  sideOffset: 0
+--- !u!114 &1401179044679863484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Sidequest
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: ActsType
+  _connections: []
+  side: 4
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &2804715936101751706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Act
+  m_EditorClassIdentifier: 
+  body: {fileID: 8545244516192991475}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: ActsType
+  _connections: []
+  side: 2
+  sidePosition: 46
+  sideOffset: 0
+--- !u!114 &3277213049788624301
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Sidequest
+  m_EditorClassIdentifier: 
+  body: {fileID: 3574774530900946323}
+  direction: 1
+  maxConnectionCount: 1
+  styleID: StructureType
+  _connections: []
+  side: 4
+  sidePosition: 28
+  sideOffset: 0
+--- !u!114 &3403415468953833943
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d562c6ab522e943ac7246c89ad357b, type: 3}
+  m_Name: Eight Act Structure
+  m_EditorClassIdentifier: 
+  position: {x: -50, y: 51}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  lev: 6
+  firstLevelOutputKnob: {fileID: -2177777013276572070}
+  text: 
+--- !u!114 &3574774530900946323
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8ac90092d4b3b4db69ba51cd0b08bd, type: 3}
+  m_Name: Possible Plot
+  m_EditorClassIdentifier: 
+  position: {x: -669.60004, y: -271.8}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  lev: 3
+  love: 5
+  misfortune: 5
+  revenge: 5
+  transgression: 0
+  mistery: 0
+  structureConnection: {fileID: 3277213049788624301}
+--- !u!114 &6316850841693668371
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Act
+  m_EditorClassIdentifier: 
+  body: {fileID: 8776396330189472651}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: ActsType
+  _connections: []
+  side: 2
+  sidePosition: 46
+  sideOffset: 0
+--- !u!114 &8119734915755786936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 8776396330189472651}
+  direction: 1
+  maxConnectionCount: 1
+  styleID: LoreType
+  _connections: []
+  side: 4
+  sidePosition: 28
+  sideOffset: 0
+--- !u!114 &8545244516192991475
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9106e278cbde43e41ac41c2e168bb8a3, type: 3}
+  m_Name: Five Act Structure
+  m_EditorClassIdentifier: 
+  position: {x: -499.5, y: 49.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  lev: 5
+  firstLevelOutputKnob: {fileID: 2804715936101751706}
+  text: 
+  loreInput: {fileID: 8981469107491054586}
+--- !u!114 &8592543440546549021
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: 9185651078826637922}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 80
+  sideOffset: 0
+--- !u!114 &8776396330189472651
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f91c4438d81ccf644b5c379585cf5e48, type: 3}
+  m_Name: Four Act Structure
+  m_EditorClassIdentifier: 
+  position: {x: -34.5, y: -182.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  lev: 4
+  firstLevelOutputKnob: {fileID: 6316850841693668371}
+  loreInput: {fileID: 8119734915755786936}
+  text: 
+--- !u!114 &8981469107491054586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 8545244516192991475}
+  direction: 1
+  maxConnectionCount: 1
+  styleID: LoreType
+  _connections: []
+  side: 4
+  sidePosition: 28
+  sideOffset: 0
+--- !u!114 &9185651078826637922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43df3348cf137a84d9b109b4f14d74d2, type: 3}
+  m_Name: Character Hub
+  m_EditorClassIdentifier: 
+  position: {x: -1114.4, y: -213.40001}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  structureConnection: {fileID: 802471496645848177}
+  sidequestConnection: {fileID: 1401179044679863484}
+  firstCharacter: {fileID: -4059131156631276204}
+  secondCharacter: {fileID: -1225287210699486277}
+  thirdCharacter: {fileID: -9152401449468663950}
+  fourthCharacter: {fileID: 8592543440546549021}
+  fifthCharacter: {fileID: -6152147158603030804}
+  sixthCharacter: {fileID: -1792081045207542462}
