@@ -36,7 +36,7 @@ public class LoreNode : Node
         GUILayout.EndHorizontal();
         RTEditorGUI.PrefixLabel(new Rect(3, 20, 100, 50), new GUIContent("Insert object/NPC lore that vehicles the message(Es: a book, a paint)"), new GUIStyle());
         GUIStyle styleVehicles = GUI.skin.box;
-        loreVechicles = EditorGUI.TextArea(new Rect(3, 35, size.x - 6, 20), text);
+        loreVechicles = EditorGUI.TextArea(new Rect(3, 35, size.x - 6, 20), loreVechicles);
 
         RTEditorGUI.PrefixLabel(new Rect(3, 80, 100, 50), new GUIContent("Insert Lore Description Here"), new GUIStyle());
 

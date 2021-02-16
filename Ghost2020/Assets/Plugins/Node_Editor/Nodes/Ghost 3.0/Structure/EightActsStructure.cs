@@ -15,7 +15,8 @@ public class EightActsStructure : Node
     public enum Level { Acto_One_SequenceA_Opening, Act_One_SequenceB_Setup, Act_TwoA_SequenceC_NewWorld, Act_TwoA_SequenceD_Midpoint, Act_TwoB_SequenceE_Development, Act_TwoB_SequenceF_Crisis, Act_Three_SequenceG_Battle, Act_Three_SequenceH_Resolution, None }
     public Level lev = Level.None;
 
-
+    [ValueConnectionKnob("Lore", Direction.In, "LoreType", MaxConnectionCount = ConnectionCount.Multi, NodeSide = NodeSide.Left)]
+    public ValueConnectionKnob loreInput;
     [ValueConnectionKnob("Act", Direction.Out, "ActsType")]
     public ValueConnectionKnob firstLevelOutputKnob;
 
@@ -26,10 +27,11 @@ public class EightActsStructure : Node
     {
         GUILayout.BeginHorizontal();
         GUILayout.BeginVertical();
-        GUILayout.Label("Eight acts Structure");
+        GUILayout.Label("Lore/Utility Node");
 
         GUILayout.EndVertical();
         GUILayout.BeginVertical();
+        loreInput.DisplayLayout();
 
         switch (getValue())
         {

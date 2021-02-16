@@ -15,7 +15,6 @@ public class ActsHub : Node
 
     public override Vector2 DefaultSize { get { return new Vector2(250, 220); } }
 
-    public string text = "";
     public string condOne = "";
     public string condTwo = "";
     public string condThree = "";
@@ -39,13 +38,13 @@ public class ActsHub : Node
         GUILayout.BeginVertical();
         structureConnection.DisplayLayout();
         RTEditorGUI.PrefixLabel(new Rect(3, 20, 100, 50), new GUIContent("Insert a condition to trigger this act"), new GUIStyle());
-        condOne = EditorGUI.TextArea(new Rect(3, 35, size.x - 6, 20), text);
+        condOne = EditorGUI.TextArea(new Rect(3, 35, size.x - 6, 20), condOne);
         RTEditorGUI.PrefixLabel(new Rect(3, 60, 100, 50), new GUIContent("Insert a condition to trigger this act"), new GUIStyle());
-        condTwo = EditorGUI.TextArea(new Rect(3, 75, size.x - 6, 20), text);
+        condTwo = EditorGUI.TextArea(new Rect(3, 75, size.x - 6, 20), condTwo);
         RTEditorGUI.PrefixLabel(new Rect(3, 95, 100, 50), new GUIContent("Insert a condition to trigger this act"), new GUIStyle());
-        condTwo = EditorGUI.TextArea(new Rect(3, 110, size.x - 6, 20), text);
+        condTwo = EditorGUI.TextArea(new Rect(3, 110, size.x - 6, 20), condThree);
         RTEditorGUI.PrefixLabel(new Rect(3, 130, 100, 50), new GUIContent("Insert a condition to trigger this act"), new GUIStyle());
-        condTwo = EditorGUI.TextArea(new Rect(3, 155, size.x - 6, 20), text);
+        condTwo = EditorGUI.TextArea(new Rect(3, 155, size.x - 6, 20), condFour);
         GUILayout.EndVertical();
         GUILayout.EndHorizontal();
     }
