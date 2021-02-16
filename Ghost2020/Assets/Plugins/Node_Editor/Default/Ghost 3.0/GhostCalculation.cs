@@ -8,11 +8,6 @@ namespace NodeEditorFramework.Standard
 
     //GHOST 3.0 new types (Faro)
 
-    public class UtilityType : ValueConnectionType {
-        public override string Identifier { get { return "UtilityType"; } }
-        public override Type Type { get { return typeof(String); } }
-        public override Color Color { get { return Color.magenta; } }
-    }
     public class PLotType : ValueConnectionType {
         public override string Identifier { get { return "PlotType"; } }
         public override Type Type { get { return typeof(String); } }

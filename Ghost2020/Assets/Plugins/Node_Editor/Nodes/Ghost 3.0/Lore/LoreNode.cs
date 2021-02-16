@@ -11,11 +11,6 @@ public class LoreNode : Node
 
     public override string Title { get { return "Lore Node"; } }
     public override Vector2 DefaultSize { get { return new Vector2(400, 250); } }
-
-    public enum Biomes { Tundra, Taiga, Tropical_Forest, Grassland, Savanna, Marine, Ice, Forest, Desert, None }
-    public Biomes biomes = Biomes.None;
-    public enum Architecture { Temple, City, Village, Ruins, None }
-    public Architecture architecture = Architecture.None;
     public enum Messages { Collectionable, Paint, Book, Letter, Photo, None }
     public Messages messages = Messages.None;
 
@@ -52,79 +47,5 @@ public class LoreNode : Node
             NodeEditor.curNodeCanvas.OnNodeChange(this);
     }
 
-    public override bool Calculate()
-    {
-        switch (biomes)
-        {
-            case Biomes.Desert:
-                firstLevelOutputKnob.SetValue<string>("Desert");
-                break;
-            case Biomes.Taiga:
-                firstLevelOutputKnob.SetValue<string>("Taiga");
-                break;
-            case Biomes.Tundra:
-                firstLevelOutputKnob.SetValue<string>("Tundra");
-                break;
-            case Biomes.Tropical_Forest:
-                firstLevelOutputKnob.SetValue<string>("Tropical_Forest");
-                break;
-            case Biomes.Forest:
-                firstLevelOutputKnob.SetValue<string>("Forest");
-                break;
-            case Biomes.Grassland:
-                firstLevelOutputKnob.SetValue<string>("Grassland");
-                break;
-            case Biomes.Ice:
-                firstLevelOutputKnob.SetValue<string>("Ice");
-                break;
-            case Biomes.Savanna:
-                firstLevelOutputKnob.SetValue<string>("Savanna");
-                break;
-            case Biomes.None:
-                firstLevelOutputKnob.SetValue<string>("None");
-                break;
-
-        }
-
-        return true;
-
-    }
-
-    public string getValue()
-    {
-        string ris = "";
-        switch (this.biomes)
-        {
-            case Biomes.Desert:
-                ris = "Desert";
-                break;
-            case Biomes.Taiga:
-                ris = "Taiga";
-                break;
-            case Biomes.Tundra:
-                ris = "Tundra";
-                break;
-            case Biomes.Tropical_Forest:
-                ris = "Tropical_Forest";
-                break;
-            case Biomes.Forest:
-                ris = "Forest";
-                break;
-            case Biomes.Grassland:
-                ris = "Grassland";
-                break;
-            case Biomes.Ice:
-                ris = "Ice";
-                break;
-            case Biomes.Savanna:
-                ris = "Savanna";
-                break;
-            case Biomes.None:
-                ris = "None";
-                break;
-
-        }
-        return ris;
-    }
-
+  
 }
