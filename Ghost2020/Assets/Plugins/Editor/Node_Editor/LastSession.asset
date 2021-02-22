@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8624954781894269911
+--- !u!114 &-8904883586339833328
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,15 +12,349 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Character
   m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
+  body: {fileID: -1290254701663761587}
   direction: 1
   maxConnectionCount: 0
   styleID: CharacterDescriptorType
   _connections: []
   side: 2
-  sidePosition: 100
+  sidePosition: 60
   sideOffset: 0
---- !u!114 &-8506188220309958690
+--- !u!114 &-8651839334456396924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  parentEditor: {fileID: 0}
+  selectedNode: {fileID: 0}
+  panOffset: {x: 995.7999, y: 11.40004}
+  zoom: 1.2
+--- !u!114 &-7953368863500846723
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 6434601858337993016}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexSetupType
+  _connections:
+  - {fileID: 7649316077041119460}
+  side: 4
+  sidePosition: 66.1
+  sideOffset: 0
+--- !u!114 &-5965499952353607800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Arc '
+  m_EditorClassIdentifier: 
+  body: {fileID: -2769384022048819711}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CharacterDescriptorType
+  _connections:
+  - {fileID: -2259454098447543681}
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &-5720668648522771734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Circumplex
+  m_EditorClassIdentifier: 
+  body: {fileID: 4535147461372324623}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CircumplexSetupType
+  _connections: []
+  side: 1
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &-5612843528752235001
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 2100436829228085932}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexSetupOutputType
+  _connections:
+  - {fileID: 4498306513715262690}
+  side: 4
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &-4273096873660512614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 2100436829228085932}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CircumplexSetupType
+  _connections: []
+  side: 4
+  sidePosition: 20
+  sideOffset: 0
+--- !u!114 &-3923172672575440868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: -1290254701663761587}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections:
+  - {fileID: 4564172557936951464}
+  side: 2
+  sidePosition: 80
+  sideOffset: 0
+--- !u!114 &-3373337156478097802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Arc '
+  m_EditorClassIdentifier: 
+  body: {fileID: -3319382774144227257}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &-3319382774144227257
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506a5a0ea7645da4bb7e9719afd1af0d, type: 3}
+  m_Name: Character Descriptor
+  m_EditorClassIdentifier: 
+  position: {x: -1687.5999, y: -15.100014}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  arcOutputKnob: {fileID: -3373337156478097802}
+  principalNameOutputKnob: {fileID: 2154005957539345843}
+  bgOutputKnob: {fileID: 2455692083811599094}
+  role: 7
+  good: 11
+  evil: 22
+  textName: Maura
+  textAge: 
+  textGender: 
+  textRace: 
+  textDesc: 
+--- !u!114 &-3090650874469073761
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Background
+  m_EditorClassIdentifier: 
+  body: {fileID: 4535147461372324623}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: BackgroundType
+  _connections: []
+  side: 1
+  sidePosition: 140
+  sideOffset: 0
+--- !u!114 &-2781819695435793514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Circumplex
+  m_EditorClassIdentifier: 
+  body: {fileID: -2769384022048819711}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CircumplexSetupType
+  _connections: []
+  side: 1
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &-2769384022048819711
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506a5a0ea7645da4bb7e9719afd1af0d, type: 3}
+  m_Name: Character Descriptor
+  m_EditorClassIdentifier: 
+  position: {x: -1095.7999, y: 371.1}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  arcOutputKnob: {fileID: -5965499952353607800}
+  principalNameOutputKnob: {fileID: -2781819695435793514}
+  bgOutputKnob: {fileID: 2512865475716052421}
+  role: 5
+  good: 11
+  evil: 22
+  textName: Mister x
+  textAge: 
+  textGender: 
+  textRace: 
+  textDesc: 
+--- !u!114 &-2336117961637925986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Arc '
+  m_EditorClassIdentifier: 
+  body: {fileID: 6633573746333967742}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &-2290666583127254784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Act
+  m_EditorClassIdentifier: 
+  body: {fileID: -1290254701663761587}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: ActsType
+  _connections: []
+  side: 4
+  sidePosition: 20
+  sideOffset: 0
+--- !u!114 &-2259454098447543681
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: -1290254701663761587}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections:
+  - {fileID: -5965499952353607800}
+  side: 2
+  sidePosition: 20
+  sideOffset: 0
+--- !u!114 &-1348429513446417710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: -1290254701663761587}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 120
+  sideOffset: 0
+--- !u!114 &-1290254701663761587
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35,15 +369,102 @@ MonoBehaviour:
   position: {x: -1395.3999, y: 438.29993}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  structureConnection: {fileID: -5722298050029112539}
-  sidequestConnection: {fileID: -6488763164336321065}
-  firstCharacter: {fileID: -4772204186634711535}
-  secondCharacter: {fileID: -1840096608778446058}
-  thirdCharacter: {fileID: -792537116439519347}
-  fourthCharacter: {fileID: 3941809905494028641}
-  fifthCharacter: {fileID: -8624954781894269911}
-  sixthCharacter: {fileID: 4500177466884431819}
---- !u!114 &-8484744361261965249
+  structureConnection: {fileID: -2290666583127254784}
+  sidequestConnection: {fileID: 6054761857515051693}
+  firstCharacter: {fileID: -2259454098447543681}
+  secondCharacter: {fileID: -171212989812120934}
+  thirdCharacter: {fileID: -8904883586339833328}
+  fourthCharacter: {fileID: -3923172672575440868}
+  fifthCharacter: {fileID: 387002757512677068}
+  sixthCharacter: {fileID: -1348429513446417710}
+--- !u!114 &-264367570534102885
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Background
+  m_EditorClassIdentifier: 
+  body: {fileID: 6633573746333967742}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: BackgroundType
+  _connections: []
+  side: 1
+  sidePosition: 140
+  sideOffset: 0
+--- !u!114 &-171212989812120934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: -1290254701663761587}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f087403d09c1f74cab9ff1f614ace30, type: 3}
+  m_Name: LastSession
+  m_EditorClassIdentifier: 
+  editorStates:
+  - {fileID: -8651839334456396924}
+  saveName: New Graph
+  savePath: 
+  livesInScene: 0
+  nodes:
+  - {fileID: -2769384022048819711}
+  - {fileID: 4535147461372324623}
+  - {fileID: -1290254701663761587}
+  - {fileID: 1439190923459641976}
+  - {fileID: 2100436829228085932}
+  - {fileID: -3319382774144227257}
+  - {fileID: 6633573746333967742}
+  - {fileID: 6434601858337993016}
+  groups: []
+--- !u!114 &387002757512677068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  body: {fileID: -1290254701663761587}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: CharacterDescriptorType
+  _connections: []
+  side: 2
+  sidePosition: 100
+  sideOffset: 0
+--- !u!114 &1439190923459641976
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,9 +480,9 @@ MonoBehaviour:
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   lev: 7
-  structureConnection: {fileID: 3576962878248704478}
-  actOutConnection: {fileID: 6805340259980876327}
---- !u!114 &-7929814315844515313
+  structureConnection: {fileID: 8931704324271718577}
+  actOutConnection: {fileID: 5798627385561996276}
+--- !u!114 &1830072861203221481
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,191 +492,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Next act
+  m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: -5810764247251451665}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: ActsType
-  _connections:
-  - {fileID: 601313035300000783}
-  side: 2
-  sidePosition: 44.5
-  sideOffset: 0
---- !u!114 &-6488763164336321065
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Sidequest
-  m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: ActsType
-  _connections: []
-  side: 4
-  sidePosition: 40
-  sideOffset: 0
---- !u!114 &-5810764247251451665
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6883eb33e3a4e541b4523c616b699e4, type: 3}
-  m_Name: Act
-  m_EditorClassIdentifier: 
-  position: {x: -839.6, y: -233.7}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  lev: 1
-  structureConnection: {fileID: 2166271055879572832}
-  actOutConnection: {fileID: -7929814315844515313}
---- !u!114 &-5722298050029112539
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Act
-  m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: ActsType
-  _connections:
-  - {fileID: -2281149416321460514}
-  side: 4
-  sidePosition: 20
-  sideOffset: 0
---- !u!114 &-4772204186634711535
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Character
-  m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
+  body: {fileID: 6434601858337993016}
   direction: 1
   maxConnectionCount: 0
-  styleID: CharacterDescriptorType
+  styleID: CircumplexSetupType
   _connections:
-  - {fileID: 3834451939298974347}
-  side: 2
-  sidePosition: 20
-  sideOffset: 0
---- !u!114 &-4727116975259491753
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 506a5a0ea7645da4bb7e9719afd1af0d, type: 3}
-  m_Name: Character Descriptor
-  m_EditorClassIdentifier: 
-  position: {x: -1095.7999, y: 371.1}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  arcOutputKnob: {fileID: 3834451939298974347}
-  principalNameOutputKnob: {fileID: 6775785070046644831}
-  bgOutputKnob: {fileID: -4647135658660224484}
-  role: 5
-  good: 11
-  evil: 22
-  textName: Mister x
-  textAge: 
-  textGender: 
-  textRace: 
-  textDesc: 
---- !u!114 &-4647135658660224484
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Background
-  m_EditorClassIdentifier: 
-  body: {fileID: -4727116975259491753}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: BackgroundType
-  _connections: []
-  side: 1
-  sidePosition: 140
-  sideOffset: 0
---- !u!114 &-2467122146355305846
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 506a5a0ea7645da4bb7e9719afd1af0d, type: 3}
-  m_Name: Character Descriptor
-  m_EditorClassIdentifier: 
-  position: {x: -601.6, y: 463.49994}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  arcOutputKnob: {fileID: 6312605509026390551}
-  principalNameOutputKnob: {fileID: -1849866802105852654}
-  bgOutputKnob: {fileID: 7987614885000432985}
-  role: 7
-  good: 11
-  evil: 22
-  textName: Vanessa
-  textAge: 
-  textGender: 
-  textRace: 
-  textDesc: 
---- !u!114 &-2281149416321460514
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Structure/Character Hub
-  m_EditorClassIdentifier: 
-  body: {fileID: 1531816181949707139}
-  direction: 1
-  maxConnectionCount: 1
-  styleID: StructureType
-  _connections:
-  - {fileID: -5722298050029112539}
+  - {fileID: 2154005957539345843}
   side: 4
-  sidePosition: 27.5
+  sidePosition: 84.1
   sideOffset: 0
---- !u!114 &-1849866802105852654
+--- !u!114 &2100436829228085932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc563c4c09376d4ea04ac4e42517311, type: 3}
+  m_Name: Interpersonal Circumplex
+  m_EditorClassIdentifier: 
+  position: {x: -835.9999, y: -348.7}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  principalNameInputKnob: {fileID: -4273096873660512614}
+  otherInputKnob: {fileID: -5612843528752235001}
+--- !u!114 &2154005957539345843
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,178 +532,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Circumplex
   m_EditorClassIdentifier: 
-  body: {fileID: -2467122146355305846}
+  body: {fileID: -3319382774144227257}
   direction: 2
   maxConnectionCount: 1
   styleID: CircumplexSetupType
-  _connections: []
+  _connections:
+  - {fileID: 1830072861203221481}
   side: 1
   sidePosition: 40
-  sideOffset: 0
---- !u!114 &-1840096608778446058
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Character
-  m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
-  direction: 1
-  maxConnectionCount: 0
-  styleID: CharacterDescriptorType
-  _connections: []
-  side: 2
-  sidePosition: 40
-  sideOffset: 0
---- !u!114 &-1306755622756726812
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6d562c6ab522e943ac7246c89ad357b, type: 3}
-  m_Name: Eight Act Structure
-  m_EditorClassIdentifier: 
-  position: {x: -1219, y: -124.90001}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  lev: 8
-  loreInput: {fileID: 3029376561839328481}
-  firstLevelOutputKnob: {fileID: 5818301982381925933}
-  text: 
---- !u!114 &-792537116439519347
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Character
-  m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
-  direction: 1
-  maxConnectionCount: 0
-  styleID: CharacterDescriptorType
-  _connections: []
-  side: 2
-  sidePosition: 60
-  sideOffset: 0
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f087403d09c1f74cab9ff1f614ace30, type: 3}
-  m_Name: LastSession
-  m_EditorClassIdentifier: 
-  editorStates:
-  - {fileID: 7208617017673879232}
-  saveName: New Graph
-  savePath: 
-  livesInScene: 0
-  nodes:
-  - {fileID: 8348317588904375097}
-  - {fileID: -4727116975259491753}
-  - {fileID: -2467122146355305846}
-  - {fileID: -8506188220309958690}
-  - {fileID: -8484744361261965249}
-  - {fileID: 1531816181949707139}
-  - {fileID: -1306755622756726812}
-  - {fileID: -5810764247251451665}
-  groups: []
---- !u!114 &183307214914236596
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Next act
-  m_EditorClassIdentifier: 
-  body: {fileID: 8348317588904375097}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: ActsType
-  _connections: []
-  side: 2
-  sidePosition: 44.5
-  sideOffset: 0
---- !u!114 &601313035300000783
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Structure/Character Hub
-  m_EditorClassIdentifier: 
-  body: {fileID: 8348317588904375097}
-  direction: 1
-  maxConnectionCount: 1
-  styleID: StructureType
-  _connections:
-  - {fileID: -7929814315844515313}
-  side: 4
-  sidePosition: 27.5
-  sideOffset: 0
---- !u!114 &1531816181949707139
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6883eb33e3a4e541b4523c616b699e4, type: 3}
-  m_Name: Act
-  m_EditorClassIdentifier: 
-  position: {x: -374.80005, y: 112.099976}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  lev: 6
-  structureConnection: {fileID: -2281149416321460514}
-  actOutConnection: {fileID: 8040098882666514581}
---- !u!114 &2166271055879572832
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Structure/Character Hub
-  m_EditorClassIdentifier: 
-  body: {fileID: -5810764247251451665}
-  direction: 1
-  maxConnectionCount: 1
-  styleID: StructureType
-  _connections: []
-  side: 4
-  sidePosition: 27.5
   sideOffset: 0
 --- !u!114 &2282614434646551463
 MonoBehaviour:
@@ -460,208 +561,7 @@ MonoBehaviour:
   side: 2
   sidePosition: 20
   sideOffset: 0
---- !u!114 &3029376561839328481
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Lore
-  m_EditorClassIdentifier: 
-  body: {fileID: -1306755622756726812}
-  direction: 1
-  maxConnectionCount: 1
-  styleID: LoreType
-  _connections: []
-  side: 4
-  sidePosition: 27.5
-  sideOffset: 0
---- !u!114 &3576962878248704478
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Structure/Character Hub
-  m_EditorClassIdentifier: 
-  body: {fileID: -8484744361261965249}
-  direction: 1
-  maxConnectionCount: 1
-  styleID: StructureType
-  _connections:
-  - {fileID: 8040098882666514581}
-  side: 4
-  sidePosition: 27.5
-  sideOffset: 0
---- !u!114 &3834451939298974347
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: 'Arc '
-  m_EditorClassIdentifier: 
-  body: {fileID: -4727116975259491753}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: CharacterDescriptorType
-  _connections:
-  - {fileID: -4772204186634711535}
-  side: 2
-  sidePosition: 29.5
-  sideOffset: 0
---- !u!114 &3941809905494028641
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Character
-  m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
-  direction: 1
-  maxConnectionCount: 0
-  styleID: CharacterDescriptorType
-  _connections:
-  - {fileID: 6312605509026390551}
-  side: 2
-  sidePosition: 80
-  sideOffset: 0
---- !u!114 &4500177466884431819
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Character
-  m_EditorClassIdentifier: 
-  body: {fileID: -8506188220309958690}
-  direction: 1
-  maxConnectionCount: 0
-  styleID: CharacterDescriptorType
-  _connections: []
-  side: 2
-  sidePosition: 120
-  sideOffset: 0
---- !u!114 &5818301982381925933
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Act
-  m_EditorClassIdentifier: 
-  body: {fileID: -1306755622756726812}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: ActsType
-  _connections: []
-  side: 2
-  sidePosition: 44.5
-  sideOffset: 0
---- !u!114 &6312605509026390551
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: 'Arc '
-  m_EditorClassIdentifier: 
-  body: {fileID: -2467122146355305846}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: CharacterDescriptorType
-  _connections:
-  - {fileID: 3941809905494028641}
-  side: 2
-  sidePosition: 29.5
-  sideOffset: 0
---- !u!114 &6775785070046644831
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Circumplex
-  m_EditorClassIdentifier: 
-  body: {fileID: -4727116975259491753}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: CircumplexSetupType
-  _connections: []
-  side: 1
-  sidePosition: 40
-  sideOffset: 0
---- !u!114 &6805340259980876327
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Next act
-  m_EditorClassIdentifier: 
-  body: {fileID: -8484744361261965249}
-  direction: 2
-  maxConnectionCount: 1
-  styleID: ActsType
-  _connections: []
-  side: 2
-  sidePosition: 44.5
-  sideOffset: 0
---- !u!114 &7208617017673879232
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
-  m_Name: MainEditorState
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  parentEditor: {fileID: 0}
-  selectedNode: {fileID: 0}
-  panOffset: {x: 597.39996, y: -112.79997}
-  zoom: 1
---- !u!114 &7987614885000432985
+--- !u!114 &2455692083811599094
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -673,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Background
   m_EditorClassIdentifier: 
-  body: {fileID: -2467122146355305846}
+  body: {fileID: -3319382774144227257}
   direction: 2
   maxConnectionCount: 1
   styleID: BackgroundType
@@ -681,7 +581,95 @@ MonoBehaviour:
   side: 1
   sidePosition: 140
   sideOffset: 0
---- !u!114 &8040098882666514581
+--- !u!114 &2512865475716052421
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Background
+  m_EditorClassIdentifier: 
+  body: {fileID: -2769384022048819711}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: BackgroundType
+  _connections: []
+  side: 1
+  sidePosition: 140
+  sideOffset: 0
+--- !u!114 &4498306513715262690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Result '
+  m_EditorClassIdentifier: 
+  body: {fileID: 6434601858337993016}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CircumplexSetupOutputType
+  _connections:
+  - {fileID: -5612843528752235001}
+  side: 2
+  sidePosition: 28
+  sideOffset: 0
+--- !u!114 &4535147461372324623
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506a5a0ea7645da4bb7e9719afd1af0d, type: 3}
+  m_Name: Character Descriptor
+  m_EditorClassIdentifier: 
+  position: {x: -601.6, y: 463.49994}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  arcOutputKnob: {fileID: 4564172557936951464}
+  principalNameOutputKnob: {fileID: -5720668648522771734}
+  bgOutputKnob: {fileID: -3090650874469073761}
+  role: 7
+  good: 11
+  evil: 22
+  textName: Vanessa
+  textAge: 
+  textGender: 
+  textRace: 
+  textDesc: 
+--- !u!114 &4564172557936951464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: 'Arc '
+  m_EditorClassIdentifier: 
+  body: {fileID: 4535147461372324623}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CharacterDescriptorType
+  _connections:
+  - {fileID: -3923172672575440868}
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &5798627385561996276
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -693,16 +681,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next act
   m_EditorClassIdentifier: 
-  body: {fileID: 1531816181949707139}
+  body: {fileID: 1439190923459641976}
   direction: 2
   maxConnectionCount: 1
   styleID: ActsType
-  _connections:
-  - {fileID: 3576962878248704478}
+  _connections: []
   side: 2
-  sidePosition: 44.5
+  sidePosition: 46
   sideOffset: 0
---- !u!114 &8348317588904375097
+--- !u!114 &6054761857515051693
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -711,12 +698,104 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6883eb33e3a4e541b4523c616b699e4, type: 3}
-  m_Name: Act
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Sidequest
   m_EditorClassIdentifier: 
-  position: {x: -353.79996, y: -215.50002}
+  body: {fileID: -1290254701663761587}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: ActsType
+  _connections: []
+  side: 4
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &6434601858337993016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a359f54db82154da01275cad168470, type: 3}
+  m_Name: Interpersonal Circumplex Setup
+  m_EditorClassIdentifier: 
+  position: {x: -1257.3999, y: -166.70003}
+  dynamicConnectionPorts:
+  - {fileID: -7953368863500846723}
+  - {fileID: 1830072861203221481}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  circumplexOutputKnob: {fileID: 4498306513715262690}
+  characterNames:
+  - Alfio
+  - Maura
+  fCharX: 370000005b000000
+  fCharY: cbffffff0d000000
+--- !u!114 &6633573746333967742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506a5a0ea7645da4bb7e9719afd1af0d, type: 3}
+  m_Name: Character Descriptor
+  m_EditorClassIdentifier: 
+  position: {x: -1693.2, y: -447.5}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  lev: 2
-  structureConnection: {fileID: 601313035300000783}
-  actOutConnection: {fileID: 183307214914236596}
+  arcOutputKnob: {fileID: -2336117961637925986}
+  principalNameOutputKnob: {fileID: 7649316077041119460}
+  bgOutputKnob: {fileID: -264367570534102885}
+  role: 7
+  good: 11
+  evil: 22
+  textName: Alfio
+  textAge: 
+  textGender: 
+  textRace: 
+  textDesc: 
+--- !u!114 &7649316077041119460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Circumplex
+  m_EditorClassIdentifier: 
+  body: {fileID: 6633573746333967742}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: CircumplexSetupType
+  _connections:
+  - {fileID: -7953368863500846723}
+  side: 1
+  sidePosition: 40
+  sideOffset: 0
+--- !u!114 &8931704324271718577
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Structure/Character Hub
+  m_EditorClassIdentifier: 
+  body: {fileID: 1439190923459641976}
+  direction: 1
+  maxConnectionCount: 1
+  styleID: StructureType
+  _connections: []
+  side: 4
+  sidePosition: 28
+  sideOffset: 0
